@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #CCCCCC;
+    padding: 25px;
+    letter-spacing: .03rem;
+    font-size: 1.5rem;
+}
+
+h1,
+h2,
+#description {
+    text-align: center;
+}
+
+#img-div {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px 0;
+}
+
+#image,
+#img-caption {
+    max-width: 100%;
+    width: 800px;
+    margin: 8px auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#image {
+    aspect-ratio: 4 / 2;
+    object-fit: cover;
+}
+
+#title,
+#description {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#title {
+    padding: 25px;
+    padding-bottom: 0;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+#description {
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+#tribute-info {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
+#tribute-info > ul > li {
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+#tribute-info > ul {
+    margin: 25px 0;
+}
+
+#tribute-info span {
+    font-weight: normal;
+}
+
+.cits-info {
+    margin: 50px 0;
+}
+
+a {
+    text-decoration: none;
+}
